@@ -11,7 +11,7 @@ import { FaArrowsToDot } from "react-icons/fa6";
 import moment from "moment";
 import { summary } from "../assets/data";
 import clsx from "clsx";
-import { Chart } from "../components/Chart";
+// import { Chart } from "../components/Chart";
 import { BGS, PRIOTITYSTYELS, TASK_TYPE, getInitials } from "../utils";
 import UserInfo from "../components/UserInfo";
 import { useGetDashboardStatsQuery } from "../redux/slices/api/taskApiSlice";
@@ -217,12 +217,12 @@ const DashBoard = () => {
         ))}
       </div>
 
-      <div className="w-full bg-white my-16 p-4 rounded shadow-sm">
+      {/* <div className="w-full bg-white my-16 p-4 rounded shadow-sm">
         <h4 className="text-xl text-gray-600 font-semibold">
           Chart by Priority
         </h4>
         <Chart data={data?.graphData} />
-      </div>
+      </div> */}
 
       <div className="w-full flex flex-col md:flex-row gap-4 2xl:gap-10 py-8">
         {/* /left */}
