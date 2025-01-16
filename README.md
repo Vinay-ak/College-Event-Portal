@@ -1,3 +1,12 @@
+# This app is Live on the web, have a look !
+
+https://college-event-portal.netlify.app/
+
+id : test@gmail.com
+pass : 123456
+
+
+
 # College-Event-Portal
 
 ## Overview  
